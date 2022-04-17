@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>JQ_UI</title>
+  </head>
+  <body>
+
+    <header>
+      <!-- navbar -->
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid p-0">
+    <!-- logo -->
+    <a class="navbar-brand" href="#">JQ UI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#c_nav" aria-controls="c_nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- menu -->
+    <div class="collapse navbar-collapse menu" id="c_nav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#interactions">Interactions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/widgets.html">Widgets</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="pages/effects.html">Effects</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="pages/utilities.html">Utilities</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+    </div>
+    <!-- interactions -->
+    <section class="interactions" id="interactions">
+      <div class="container">
+        <h2 class="text-center">Interactions</h2>
+        <h3>Draggable</h3>
+        <div id="draggable" class="ui-widget-content">
+        <p>Drag me around</p>
+      </div>
+      <h3>Droppable</h3>
+        
+        <div id="drag" class="ui-widget-content">
+       <p>Drag me to my target</p>
+      </div>
+ 
+    <div id="droppable" class="ui-widget-header">
+     <p>Drop here</p>
+      </div>
+    </div>
+    </section>
+    <section class="sortable">
+      <div class="container">
+         <h3>Sortable</h3>
+     <ul id="sortable">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+</ul>
+      </div>
+    </section>
+
+  
+  <!-- js links -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>

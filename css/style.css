@@ -1,0 +1,118 @@
+/*header start*/
+header{
+	padding: 20px 0;
+}
+/*header end*/
+/*interaction start*/
+.interactions{
+	padding:50px 0;
+	overflow:hidden;
+}
+#draggable { width: 150px; height: 150px; padding: 0.5em; }
+#drag { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+ #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+ /*interaction end*/
+/*sortable start*/
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable li { margin: 0 3px 3px 3px; padding: 1.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+#sortable li span { position: absolute; margin-left: -1.3em; }
+/*sortable end*/
+/*widget start*/
+.widget{
+	padding:50px 0;
+}
+.ui-menu { 
+	width: 150px; 
+}
+/*widget end*/
+/*effects start*/
+.effect{
+	padding:50px 0;
+
+}
+.effect h3{
+	margin-top:50px;
+}
+.toggler {
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+#button { 
+	padding: .5em 1em; 
+	text-decoration: none; 
+}
+#effects { 
+	width: 240px; 
+	height: 180px; 
+	padding: 0.4em; 
+	position: relative; 
+	background: #fff; 
+}
+#effects h4 { 
+	margin: 0; 
+	padding: 0.4em; 
+	text-align: center; 
+}
+.toggle { 
+	width: 500px; 
+	height: 200px; 
+}
+#btn { 
+	padding: .5em 1em; 
+	text-decoration: none; 
+}
+#hidden { 
+	width: 240px; 
+	height: 190px; 
+	padding: 0.4em; 
+	position: relative; 
+}
+#hidden h3 { 
+	margin: 0; 
+	padding: 0.4em; 
+	text-align: center; 
+}
+/*effects end*/
+/*utilities start*/
+#parent {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #777;
+    background-color: #fbca93;
+    text-align: center;
+  }
+  .positionable {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    background-color: #bcd5e6;
+    text-align: center;
+  }
+  #positionable1 {
+    width: 75px;
+    height: 75px;
+  }
+  #positionable2 {
+    width: 120px;
+    height: 40px;
+  }
+  select, input {
+    margin-left: 15px;
+  }
+  .custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+/*utilities end*/
